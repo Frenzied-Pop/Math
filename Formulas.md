@@ -10,6 +10,18 @@
 - **Distance between points $(x_1, y_1)$ and $(x_2, y_2)$:** $d = \sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}$
 - **Midpoint between points $(x_1, y_1)$ and $(x_2, y_2)$:** $\left(\dfrac{x_1 + x_2}{2},\, \dfrac{y_1 + y_2}{2}\right)$
 
+## Analytic Geometry
+- **Circle (center $(h,k)$, radius $r$):** $(x - h)^2 + (y - k)^2 = r^2$
+- **Parabola (opening up/down):** $y - k = \dfrac{1}{4p}(x - h)^2$ with focus $(h, k + p)$ and directrix $y = k - p$
+- **Parabola (opening right/left):** $x - h = \dfrac{1}{4p}(y - k)^2$ with focus $(h + p, k)$ and directrix $x = h - p$
+- **Ellipse (center $(h,k)$, major axis horizontal):** $\dfrac{(x - h)^2}{a^2} + \dfrac{(y - k)^2}{b^2} = 1$ with $a > b$, foci $(h \pm c, k)$ where $c^2 = a^2 - b^2$
+- **Ellipse (major axis vertical):** $\dfrac{(x - h)^2}{b^2} + \dfrac{(y - k)^2}{a^2} = 1$ with foci $(h, k \pm c)$ where $c^2 = a^2 - b^2$
+- **Hyperbola (opens left/right):** $\dfrac{(x - h)^2}{a^2} - \dfrac{(y - k)^2}{b^2} = 1$ with foci $(h \pm c, k)$, $c^2 = a^2 + b^2$, asymptotes $y - k = \pm \dfrac{b}{a}(x - h)$
+- **Hyperbola (opens up/down):** $\dfrac{(y - k)^2}{a^2} - \dfrac{(x - h)^2}{b^2} = 1$ with foci $(h, k \pm c)$, $c^2 = a^2 + b^2$, asymptotes $y - k = \pm \dfrac{a}{b}(x - h)$
+- **General conic classification (centered):** $B = 0$ in $Ax^2 + Cy^2 + Dx + Ey + F = 0$ and:
+  - $A = C$: circle; $AC > 0$ with $A \neq C$: ellipse; $AC < 0$: hyperbola
+  - If one squared term is missing: parabola
+
 ## Trigonometry
 - **Basic definitions:** $\sin(x)$, $\cos(x)$, $\tan(x) = \dfrac{\sin(x)}{\cos(x)}$
 - **Graph parameters for $y = A\sin(B(x - C)) + D$ (or $\cos$):**

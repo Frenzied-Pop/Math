@@ -5,7 +5,7 @@
 - **Point-slope form:** $y - y_1 = m(x - x_1)$
 - **Standard form of a line:** $Ax + By = C$ with slope $m = -\tfrac{A}{B}$
 - **Quadratic formula:** $x = \dfrac{-b \pm \sqrt{b^{2} - 4ac}}{2a}$
-- **Vertex of $ax^2 + bx + c$:** $\left(-\dfrac{b}{2a}, -\dfrac{D}{4a}\right)$ where $D = b^2 - 4ac$
+- **Vertex of $ax^2 + bx + c$:** $\left(-\dfrac{b}{2a},\, -\dfrac{D}{4a}\right)$ where $D = b^2 - 4ac$
 - **Factored form of a quadratic:** $ax^2 + bx + c = a(x - r_1)(x - r_2)$ with roots $r_1, r_2$
 - **Distance between points $(x_1, y_1)$ and $(x_2, y_2)$:** $d = \sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}$
 - **Midpoint between points $(x_1, y_1)$ and $(x_2, y_2)$:** $\left(\dfrac{x_1 + x_2}{2},\, \dfrac{y_1 + y_2}{2}\right)$
@@ -39,25 +39,17 @@
 - **Vector notation:** $\vec{v} = \begin{bmatrix} v_1 \\ v_2 \\ \vdots \\ v_n \end{bmatrix}$
 - **Magnitude (norm):** $\lVert\vec{v}\rVert = \sqrt{v_1^2 + v_2^2 + \cdots + v_n^2}$
 - **Dot product:** $\vec{a} \cdot \vec{b} = a_1 b_1 + a_2 b_2 + \cdots + a_n b_n$
-- **3D cross product:** $\vec{a} \times \vec{b} = (a_2 b_3 - a_3 b_2,\ a_3 b_1 - a_1 b_3,\ a_1 b_2 - a_2 b_1)$
-- **Projection of $\vec{a}$ onto $\vec{b}$:** $\mathrm{proj}_{\vec{b}}\,\vec{a} = \frac{\vec{a}\cdot\vec{b}}{\lVert\vec{b}\rVert^{2}}\,\vec{b}$
+- **3D cross product:** $\vec{a} \times \vec{b} = \begin{bmatrix} a_2 b_3 - a_3 b_2 \\ a_3 b_1 - a_1 b_3 \\ a_1 b_2 - a_2 b_1 \end{bmatrix}$
+- **Projection of $\vec{a}$ onto $\vec{b}$:** $\operatorname{proj}_{\vec{b}} \vec{a} = \dfrac{\vec{a}\cdot\vec{b}}{\lVert\vec{b}\rVert^{2}}\,\vec{b}$
 
 ### Matrices
-
-- **Identity matrix:** $I_n$ has $1$ on the diagonal and $0$ elsewhere.
+- **Identity matrix:** $I_n$ has $1$ on the diagonal and $0$ elsewhere
 - **Transpose:** $(A^T)_{ij} = A_{ji}$
 - **Matrix multiplication:** $(AB)_{ij} = \sum_{k=1}^{n} a_{ik} b_{kj}$
-- **2×2 determinant:**  
-  If $A = \begin{pmatrix} a & b \\ c & d \end{pmatrix}$, then $\det(A) = ad - bc$
-- **3×3 determinant (rule of Sarrus):**  
-  If $A$ is  
-  $[a\ b\ c]$  
-  $[d\ e\ f]$  
-  $[g\ h\ i]$,  
-  then $\det(A) = aei + bfg + cdh - ceg - bdi - afh$
-- **2×2 inverse (when $ad - bc \neq 0$):**  
-  If $A = \begin{pmatrix} a & b \\ c & d \end{pmatrix}$, then  
-  $A^{-1} = (1/(ad - bc)) \begin{pmatrix} d & -b \\ -c & a \end{pmatrix}$
+- **2×2 determinant:** $\det \begin{bmatrix} a & b \\ c & d \end{bmatrix} = ad - bc$
+- **3×3 determinant (rule of Sarrus):**
+  $\det \begin{bmatrix} a & b & c \\ d & e & f \\ g & h & i \end{bmatrix} = aei + bfg + cdh - ceg - bdi - afh$
+- **2×2 inverse (when $ad - bc \neq 0$):** $A^{-1} = \dfrac{1}{ad - bc} \begin{bmatrix} d & -b \\ -c & a \end{bmatrix}$
 
 ### Systems of Linear Equations
 - **Matrix form:** $A\vec{x} = \vec{b}$

@@ -5,7 +5,7 @@
 - **Point-slope form:** $y - y_1 = m(x - x_1)$
 - **Standard form of a line:** $Ax + By = C$ with slope $m = -\tfrac{A}{B}$
 - **Quadratic formula:** $x = \dfrac{-b \pm \sqrt{b^{2} - 4ac}}{2a}$
-- **Vertex of $ax^2 + bx + c$:** $\left(-\dfrac{b}{2a},\, -\dfrac{D}{4a}\right)$ where $D = b^2 - 4ac$
+- **Vertex of $ax^2 + bx + c$:** $\left(-\dfrac{b}{2a}, -\dfrac{D}{4a}\right)$ where $D = b^2 - 4ac$
 - **Factored form of a quadratic:** $ax^2 + bx + c = a(x - r_1)(x - r_2)$ with roots $r_1, r_2$
 - **Distance between points $(x_1, y_1)$ and $(x_2, y_2)$:** $d = \sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}$
 - **Midpoint between points $(x_1, y_1)$ and $(x_2, y_2)$:** $\left(\dfrac{x_1 + x_2}{2},\, \dfrac{y_1 + y_2}{2}\right)$
